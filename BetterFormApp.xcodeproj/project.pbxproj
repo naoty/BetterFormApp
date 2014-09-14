@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5D6CA519C5F11300D789AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D6CA419C5F11300D789AC /* AppDelegate.swift */; };
+		3D5D6CA719C5F11300D789AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D6CA619C5F11300D789AC /* ViewController.swift */; };
+		3D5D6CAA19C5F11300D789AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D6CA819C5F11300D789AC /* Main.storyboard */; };
+		3D5D6CAC19C5F11300D789AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D6CAB19C5F11300D789AC /* Images.xcassets */; };
+		3D5D6CAF19C5F11300D789AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D6CAD19C5F11300D789AC /* LaunchScreen.xib */; };
+		3D5D6CBB19C5F11300D789AC /* BetterFormAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D6CBA19C5F11300D789AC /* BetterFormAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D5D6CB519C5F11300D789AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5D6C9719C5F11300D789AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5D6C9E19C5F11300D789AC;
+			remoteInfo = BetterFormApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D5D6C9F19C5F11300D789AC /* BetterFormApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterFormApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5D6CA319C5F11300D789AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5D6CA419C5F11300D789AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5D6CA619C5F11300D789AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D5D6CA919C5F11300D789AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5D6CAB19C5F11300D789AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D5D6CAE19C5F11300D789AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D5D6CB419C5F11300D789AC /* BetterFormAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterFormAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5D6CB919C5F11300D789AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5D6CBA19C5F11300D789AC /* BetterFormAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterFormAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5D6C9C19C5F11300D789AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5D6CB119C5F11300D789AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5D6C9619C5F11300D789AC = {
+			isa = PBXGroup;
+			children = (
+				3D5D6CA119C5F11300D789AC /* BetterFormApp */,
+				3D5D6CB719C5F11300D789AC /* BetterFormAppTests */,
+				3D5D6CA019C5F11300D789AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5D6CA019C5F11300D789AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D6C9F19C5F11300D789AC /* BetterFormApp.app */,
+				3D5D6CB419C5F11300D789AC /* BetterFormAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5D6CA119C5F11300D789AC /* BetterFormApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D6CA419C5F11300D789AC /* AppDelegate.swift */,
+				3D5D6CA619C5F11300D789AC /* ViewController.swift */,
+				3D5D6CA819C5F11300D789AC /* Main.storyboard */,
+				3D5D6CAB19C5F11300D789AC /* Images.xcassets */,
+				3D5D6CAD19C5F11300D789AC /* LaunchScreen.xib */,
+				3D5D6CA219C5F11300D789AC /* Supporting Files */,
+			);
+			path = BetterFormApp;
+			sourceTree = "<group>";
+		};
+		3D5D6CA219C5F11300D789AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D6CA319C5F11300D789AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D5D6CB719C5F11300D789AC /* BetterFormAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D6CBA19C5F11300D789AC /* BetterFormAppTests.swift */,
+				3D5D6CB819C5F11300D789AC /* Supporting Files */,
+			);
+			path = BetterFormAppTests;
+			sourceTree = "<group>";
+		};
+		3D5D6CB819C5F11300D789AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D6CB919C5F11300D789AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5D6C9E19C5F11300D789AC /* BetterFormApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5D6CBE19C5F11300D789AC /* Build configuration list for PBXNativeTarget "BetterFormApp" */;
+			buildPhases = (
+				3D5D6C9B19C5F11300D789AC /* Sources */,
+				3D5D6C9C19C5F11300D789AC /* Frameworks */,
+				3D5D6C9D19C5F11300D789AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterFormApp;
+			productName = BetterFormApp;
+			productReference = 3D5D6C9F19C5F11300D789AC /* BetterFormApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5D6CB319C5F11300D789AC /* BetterFormAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5D6CC119C5F11300D789AC /* Build configuration list for PBXNativeTarget "BetterFormAppTests" */;
+			buildPhases = (
+				3D5D6CB019C5F11300D789AC /* Sources */,
+				3D5D6CB119C5F11300D789AC /* Frameworks */,
+				3D5D6CB219C5F11300D789AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5D6CB619C5F11300D789AC /* PBXTargetDependency */,
+			);
+			name = BetterFormAppTests;
+			productName = BetterFormAppTests;
+			productReference = 3D5D6CB419C5F11300D789AC /* BetterFormAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5D6C9719C5F11300D789AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Naoto Kaneko";
+				TargetAttributes = {
+					3D5D6C9E19C5F11300D789AC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3D5D6CB319C5F11300D789AC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3D5D6C9E19C5F11300D789AC;
+					};
+				};
+			};
+			buildConfigurationList = 3D5D6C9A19C5F11300D789AC /* Build configuration list for PBXProject "BetterFormApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5D6C9619C5F11300D789AC;
+			productRefGroup = 3D5D6CA019C5F11300D789AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5D6C9E19C5F11300D789AC /* BetterFormApp */,
+				3D5D6CB319C5F11300D789AC /* BetterFormAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5D6C9D19C5F11300D789AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5D6CAA19C5F11300D789AC /* Main.storyboard in Resources */,
+				3D5D6CAF19C5F11300D789AC /* LaunchScreen.xib in Resources */,
+				3D5D6CAC19C5F11300D789AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5D6CB219C5F11300D789AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5D6C9B19C5F11300D789AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5D6CA719C5F11300D789AC /* ViewController.swift in Sources */,
+				3D5D6CA519C5F11300D789AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5D6CB019C5F11300D789AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5D6CBB19C5F11300D789AC /* BetterFormAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5D6CB619C5F11300D789AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5D6C9E19C5F11300D789AC /* BetterFormApp */;
+			targetProxy = 3D5D6CB519C5F11300D789AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D5D6CA819C5F11300D789AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5D6CA919C5F11300D789AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5D6CAD19C5F11300D789AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5D6CAE19C5F11300D789AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5D6CBC19C5F11300D789AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D5D6CBD19C5F11300D789AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5D6CBF19C5F11300D789AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BetterFormApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D5D6CC019C5F11300D789AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BetterFormApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D5D6CC219C5F11300D789AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BetterFormAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterFormApp.app/BetterFormApp";
+			};
+			name = Debug;
+		};
+		3D5D6CC319C5F11300D789AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BetterFormAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterFormApp.app/BetterFormApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5D6C9A19C5F11300D789AC /* Build configuration list for PBXProject "BetterFormApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5D6CBC19C5F11300D789AC /* Debug */,
+				3D5D6CBD19C5F11300D789AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5D6CBE19C5F11300D789AC /* Build configuration list for PBXNativeTarget "BetterFormApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5D6CBF19C5F11300D789AC /* Debug */,
+				3D5D6CC019C5F11300D789AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D5D6CC119C5F11300D789AC /* Build configuration list for PBXNativeTarget "BetterFormAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5D6CC219C5F11300D789AC /* Debug */,
+				3D5D6CC319C5F11300D789AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5D6C9719C5F11300D789AC /* Project object */;
+}
