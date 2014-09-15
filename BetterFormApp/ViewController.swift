@@ -8,18 +8,38 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    @IBOutlet var emailField: UITextField?
+    @IBOutlet var passwordField: UITextField?
+    @IBOutlet var loginButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func login() {
+        resignFirstResponderAtControls()
+        println("Login")
     }
-
-
+    
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        resignFirstResponderAtControls()
+    }
+    
+    private func resignFirstResponderAtControls() {
+        emailField?.resignFirstResponder()
+        passwordField?.resignFirstResponder()
+    }
+    
+    // MARK: - UITextFieldDelegate
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if (textField == emailField) {
+            passwordField?.becomeFirstResponder()
+        } else {
+            login()
+        }
+        
+        return true
+    }
 }
-

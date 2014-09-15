@@ -21,6 +21,9 @@
                                 <rect key="frame" x="217" y="179" width="166" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Ap6-yT-x89"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-od-ngm">
                                 <rect key="frame" x="217" y="217" width="166" height="30"/>
@@ -29,12 +32,18 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="YmC-Ly-YjL"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVn-95-M8F">
                                 <rect key="frame" x="281" y="255" width="38" height="30"/>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="login" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Our-zI-k0a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -48,6 +57,11 @@
                             <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="9V7-ft-qlI" secondAttribute="bottom" constant="8" symbolic="YES" id="whz-YZ-B5K"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="9V7-ft-qlI" id="agn-pW-iB3"/>
+                        <outlet property="loginButton" destination="FVn-95-M8F" id="0MF-DT-UbH"/>
+                        <outlet property="passwordField" destination="ESf-od-ngm" id="8ia-0v-dfs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
