@@ -17,30 +17,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9V7-ft-qlI">
-                                <rect key="frame" x="217" y="179" width="166" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Ap6-yT-x89"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-od-ngm">
-                                <rect key="frame" x="217" y="217" width="166" height="30"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICr-b9-dWS" customClass="TextFieldContainer" customModule="BetterFormApp" customModuleProvider="target">
+                                <rect key="frame" x="40" y="117" width="520" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9V7-ft-qlI">
+                                        <rect key="frame" x="8" y="7" width="504" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="Ap6-yT-x89"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="166" id="aJj-QC-cP7"/>
+                                    <constraint firstAttribute="trailing" secondItem="9V7-ft-qlI" secondAttribute="trailing" constant="8" id="Nf7-aP-veO"/>
+                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="leading" secondItem="ICr-b9-dWS" secondAttribute="leading" constant="8" id="XBx-td-1JO"/>
+                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="top" secondItem="ICr-b9-dWS" secondAttribute="top" constant="7" id="baX-wz-DJA"/>
+                                    <constraint firstAttribute="height" constant="44" id="e80-YH-k5T"/>
+                                    <constraint firstAttribute="bottom" secondItem="9V7-ft-qlI" secondAttribute="bottom" constant="7" id="tH2-aC-MF4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="YmC-Ly-YjL"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVn-95-M8F">
-                                <rect key="frame" x="281" y="255" width="38" height="30"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yl1-e5-Cag" customClass="TextFieldContainer" customModule="BetterFormApp" customModuleProvider="target">
+                                <rect key="frame" x="40" y="169" width="520" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-od-ngm">
+                                        <rect key="frame" x="8" y="13" width="504" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Z8Y-VZ-Hwa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="YmC-Ly-YjL"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="top" constant="13" id="B9D-mR-259"/>
+                                    <constraint firstAttribute="trailing" secondItem="ESf-od-ngm" secondAttribute="trailing" constant="8" id="LJw-lY-HvH"/>
+                                    <constraint firstAttribute="bottom" secondItem="ESf-od-ngm" secondAttribute="bottom" constant="14" id="Mjw-6s-HOb"/>
+                                    <constraint firstAttribute="height" constant="44" id="WSY-Te-aWQ"/>
+                                    <constraint firstItem="ESf-od-ngm" firstAttribute="leading" secondItem="yl1-e5-Cag" secondAttribute="leading" constant="8" id="cY4-Oc-kvG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVn-95-M8F" customClass="BorderedButton" customModule="BetterFormApp" customModuleProvider="target">
+                                <rect key="frame" x="278" y="253" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="44" id="Amd-UT-Dhe"/>
+                                    <constraint firstAttribute="width" constant="44" id="D7x-oh-XAU"/>
+                                    <constraint firstAttribute="height" constant="44" id="Olm-a0-ybc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="ZTK-m0-4UO"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="qiC-bU-1Rm"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="wEi-YV-lOI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="login" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Our-zI-k0a"/>
                                 </connections>
@@ -48,13 +98,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="FVn-95-M8F" secondAttribute="centerX" id="546-LA-a0x"/>
-                            <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="217" id="7EZ-jR-mLN"/>
-                            <constraint firstAttribute="centerX" secondItem="ESf-od-ngm" secondAttribute="centerX" id="9Hb-5B-enp"/>
-                            <constraint firstItem="ESf-od-ngm" firstAttribute="leading" secondItem="9V7-ft-qlI" secondAttribute="leading" id="H2Z-TY-KWb"/>
-                            <constraint firstItem="FVn-95-M8F" firstAttribute="top" secondItem="ESf-od-ngm" secondAttribute="bottom" constant="8" symbolic="YES" id="Hs5-88-aYE"/>
-                            <constraint firstAttribute="centerX" secondItem="9V7-ft-qlI" secondAttribute="centerX" id="L3l-eh-O4C"/>
-                            <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="9V7-ft-qlI" secondAttribute="bottom" constant="8" symbolic="YES" id="whz-YZ-B5K"/>
+                            <constraint firstItem="yl1-e5-Cag" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="AgQ-MY-Kkx"/>
+                            <constraint firstAttribute="trailing" secondItem="yl1-e5-Cag" secondAttribute="trailing" constant="40" id="DcV-FX-XD5"/>
+                            <constraint firstItem="ICr-b9-dWS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="97" id="Hko-SO-BVe"/>
+                            <constraint firstItem="FVn-95-M8F" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="bottom" constant="40" id="N41-s6-CO6"/>
+                            <constraint firstAttribute="trailing" secondItem="ICr-b9-dWS" secondAttribute="trailing" constant="40" id="Pyy-6J-24d"/>
+                            <constraint firstItem="yl1-e5-Cag" firstAttribute="top" secondItem="ICr-b9-dWS" secondAttribute="bottom" constant="8" id="ded-aA-E4f"/>
+                            <constraint firstAttribute="centerX" secondItem="FVn-95-M8F" secondAttribute="centerX" id="lxS-bH-2lt"/>
+                            <constraint firstItem="ICr-b9-dWS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="urs-un-0IE"/>
                         </constraints>
                     </view>
                     <connections>

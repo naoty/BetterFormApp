@@ -13,6 +13,8 @@
 		3D5D6CAC19C5F11300D789AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D6CAB19C5F11300D789AC /* Images.xcassets */; };
 		3D5D6CAF19C5F11300D789AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D6CAD19C5F11300D789AC /* LaunchScreen.xib */; };
 		3D5D6CBB19C5F11300D789AC /* BetterFormAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D6CBA19C5F11300D789AC /* BetterFormAppTests.swift */; };
+		3DE8530119C7489100231F45 /* TextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8530019C7489100231F45 /* TextFieldContainer.swift */; };
+		3DE8530319C87CCE00231F45 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8530219C87CCE00231F45 /* BorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3D5D6CB419C5F11300D789AC /* BetterFormAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterFormAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5D6CB919C5F11300D789AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5D6CBA19C5F11300D789AC /* BetterFormAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterFormAppTests.swift; sourceTree = "<group>"; };
+		3DE8530019C7489100231F45 /* TextFieldContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldContainer.swift; sourceTree = "<group>"; };
+		3DE8530219C87CCE00231F45 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				3D5D6CA419C5F11300D789AC /* AppDelegate.swift */,
 				3D5D6CA619C5F11300D789AC /* ViewController.swift */,
+				3DE8530019C7489100231F45 /* TextFieldContainer.swift */,
+				3DE8530219C87CCE00231F45 /* BorderedButton.swift */,
 				3D5D6CA819C5F11300D789AC /* Main.storyboard */,
 				3D5D6CAB19C5F11300D789AC /* Images.xcassets */,
 				3D5D6CAD19C5F11300D789AC /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5D6CA719C5F11300D789AC /* ViewController.swift in Sources */,
+				3DE8530119C7489100231F45 /* TextFieldContainer.swift in Sources */,
+				3DE8530319C87CCE00231F45 /* BorderedButton.swift in Sources */,
 				3D5D6CA519C5F11300D789AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				3D5D6CC019C5F11300D789AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5D6CC119C5F11300D789AC /* Build configuration list for PBXNativeTarget "BetterFormAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				3D5D6CC319C5F11300D789AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
