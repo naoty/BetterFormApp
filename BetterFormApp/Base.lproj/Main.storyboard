@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mU7-ej-HtD" customClass="TextFieldContainer" customModule="BetterFormApp" customModuleProvider="target">
-                                <rect key="frame" x="40" y="117" width="520" height="44"/>
+                                <rect key="frame" x="173" y="117" width="255" height="44"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9V7-ft-qlI">
-                                        <rect key="frame" x="0.0" y="12" width="512" height="28"/>
+                                        <rect key="frame" x="0.0" y="12" width="247" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                                         <connections>
@@ -31,11 +31,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="top" secondItem="mU7-ej-HtD" secondAttribute="top" constant="12" id="0op-fP-T1z"/>
-                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="leading" secondItem="mU7-ej-HtD" secondAttribute="leading" id="AdH-i9-iCz"/>
-                                    <constraint firstAttribute="bottom" secondItem="9V7-ft-qlI" secondAttribute="bottom" constant="4" id="FKm-Lp-jxT"/>
-                                    <constraint firstAttribute="height" constant="44" id="FjY-hJ-Ww1"/>
-                                    <constraint firstAttribute="trailing" secondItem="9V7-ft-qlI" secondAttribute="trailing" constant="8" id="dal-9j-bSQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="9V7-ft-qlI" secondAttribute="bottom" constant="4" id="Fle-SJ-reE"/>
+                                    <constraint firstAttribute="trailing" secondItem="9V7-ft-qlI" secondAttribute="trailing" constant="8" id="I8K-8u-q6B"/>
+                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="top" secondItem="mU7-ej-HtD" secondAttribute="top" constant="12" id="Ill-bJ-mc8"/>
+                                    <constraint firstAttribute="height" constant="44" id="Sfz-2t-cEo"/>
+                                    <constraint firstAttribute="width" constant="255" id="ZYV-hl-JAM"/>
+                                    <constraint firstItem="9V7-ft-qlI" firstAttribute="leading" secondItem="mU7-ej-HtD" secondAttribute="leading" id="bGF-aP-Fqa"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderBottomWidth">
@@ -44,10 +45,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yl1-e5-Cag" customClass="TextFieldContainer" customModule="BetterFormApp" customModuleProvider="target">
-                                <rect key="frame" x="40" y="169" width="520" height="44"/>
+                                <rect key="frame" x="173" y="169" width="255" height="44"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-od-ngm">
-                                        <rect key="frame" x="0.0" y="12" width="512" height="28"/>
+                                        <rect key="frame" x="0.0" y="12" width="247" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17" id="Z8Y-VZ-Hwa"/>
                                         </constraints>
@@ -65,11 +66,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="top" constant="12" id="B9D-mR-259"/>
-                                    <constraint firstAttribute="trailing" secondItem="ESf-od-ngm" secondAttribute="trailing" constant="8" id="LJw-lY-HvH"/>
-                                    <constraint firstAttribute="bottom" secondItem="ESf-od-ngm" secondAttribute="bottom" constant="4" id="Mjw-6s-HOb"/>
-                                    <constraint firstAttribute="height" constant="44" id="WSY-Te-aWQ"/>
-                                    <constraint firstItem="ESf-od-ngm" firstAttribute="leading" secondItem="yl1-e5-Cag" secondAttribute="leading" id="cY4-Oc-kvG"/>
+                                    <constraint firstItem="ESf-od-ngm" firstAttribute="leading" secondItem="yl1-e5-Cag" secondAttribute="leading" id="9Y1-aZ-6zP"/>
+                                    <constraint firstAttribute="height" constant="44" id="Ifg-HH-YN6"/>
+                                    <constraint firstItem="ESf-od-ngm" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="top" constant="12" id="toC-UY-QbS"/>
+                                    <constraint firstAttribute="width" constant="255" id="ub5-jm-fu5"/>
+                                    <constraint firstAttribute="bottom" secondItem="ESf-od-ngm" secondAttribute="bottom" constant="4" id="ypG-hp-bPf"/>
+                                    <constraint firstAttribute="trailing" secondItem="ESf-od-ngm" secondAttribute="trailing" constant="8" id="zpq-xe-6Ww"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderBottomWidth">
@@ -84,6 +86,8 @@
                                     <constraint firstAttribute="width" constant="44" id="D7x-oh-XAU"/>
                                     <constraint firstAttribute="height" constant="44" id="Olm-a0-ybc"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="ZTK-m0-4UO"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="lfZ-ql-eNW"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="44" id="oGP-Lp-luV"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="qiC-bU-1Rm"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="wEi-YV-lOI"/>
                                 </constraints>
@@ -103,14 +107,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yl1-e5-Cag" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="AgQ-MY-Kkx"/>
-                            <constraint firstAttribute="trailing" secondItem="yl1-e5-Cag" secondAttribute="trailing" constant="40" id="DcV-FX-XD5"/>
-                            <constraint firstItem="mU7-ej-HtD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="97" id="GL7-ah-pw6"/>
-                            <constraint firstItem="FVn-95-M8F" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="bottom" constant="40" id="N41-s6-CO6"/>
-                            <constraint firstItem="mU7-ej-HtD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="XKo-0Z-age"/>
-                            <constraint firstAttribute="centerX" secondItem="FVn-95-M8F" secondAttribute="centerX" id="lxS-bH-2lt"/>
-                            <constraint firstAttribute="trailing" secondItem="mU7-ej-HtD" secondAttribute="trailing" constant="40" id="n8g-26-EIY"/>
-                            <constraint firstItem="yl1-e5-Cag" firstAttribute="top" secondItem="mU7-ej-HtD" secondAttribute="bottom" constant="8" id="vt0-Pz-hto"/>
+                            <constraint firstAttribute="centerX" secondItem="mU7-ej-HtD" secondAttribute="centerX" id="Ojc-TV-qE8"/>
+                            <constraint firstItem="FVn-95-M8F" firstAttribute="top" secondItem="yl1-e5-Cag" secondAttribute="bottom" constant="40" id="SH6-Pb-Bae"/>
+                            <constraint firstAttribute="centerX" secondItem="FVn-95-M8F" secondAttribute="centerX" id="Sf4-ze-Inz"/>
+                            <constraint firstItem="mU7-ej-HtD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="97" id="Zo1-1K-0VM"/>
+                            <constraint firstItem="yl1-e5-Cag" firstAttribute="top" secondItem="mU7-ej-HtD" secondAttribute="bottom" constant="8" id="dqU-ZH-abJ"/>
+                            <constraint firstAttribute="centerX" secondItem="yl1-e5-Cag" secondAttribute="centerX" id="tf3-aa-xut"/>
                         </constraints>
                     </view>
                     <connections>
